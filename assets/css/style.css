@@ -1,0 +1,42 @@
+body {
+  background-color: #c0d6df;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  border: black;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: solid 1px;
+  padding: 25px;
+  background-color: #dbe9ee;
+}
+
+.selector {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+.grafica {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.display-none {
+  display: none;
+}
